@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 34,
+    "articles": [
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Ashley Killough, Ed Lavandera",
+            "title": "A Texas judge ruled that a pregnant woman who sued the state seeking an abortion can legally terminate her pregnancy - CNN",
+            "description": "A Texas state judge ruled a pregnant woman who recently filed a lawsuit against the state can legally terminate her pregnancy after learning her unborn baby has a fatal genetic condition and her gynecologist warned that carrying the baby could jeopardize her …",
+            "url": "https://www.cnn.com/2023/12/07/us/texas-abortion-ruling/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/231207095549-01-tx-abortion-hearing-cox.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-12-07T16:14:00Z",
+            "content": "A Texas judge ruled that a pregnant woman who sued the state seeking a court-ordered abortion can legally terminate her pregnancy.\r\nThe decision marks a significant development in the ongoing debate … [+4053 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Athletic"
+            },
+            "author": "The Athletic MLB Staff",
+            "title": "MLB trade grades: Taking stock of the Yankees-Padres Juan Soto megadeal - The Athletic",
+            "description": "How well did the Yankees and the Padres do in the Soto deal?",
+            "url": "https://theathletic.com/5117801/2023/12/06/mlb-trade-grades-yankees-padres-juan-soto/",
+            "urlToImage": "https://cdn.theathletic.com/app/uploads/2023/12/06174647/GettyImages-1701497114-scaled.jpg",
+            "publishedAt": "2023-12-07T16:10:58Z",
+            "content": "By Tim Britton, Grant Brisbee and Stephen J. Nesbitt\r\nYankees get: Juan Soto, OF, Trent Grisham, OF\r\nPadres get: Michael King, RHP; Drew Thorpe, RHP; Jhony Brito, RHP; Randy Vásquez, RHP; and Kyle Hi… [+6610 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Ashley Capoot",
+            "title": "Google shares pop 5% after company announces Gemini AI model - CNBC",
+            "description": "Google shares jumped Thursday after the company announced its latest artificial intelligence model called Gemini.",
+            "url": "https://www.cnbc.com/2023/12/07/google-shares-pop-after-company-announces-gemini-ai-model.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107328777-16990343932020-01-20t120454z_160733568_rc2oje9w6izp_rtrmadp_0_google-eu.jpeg?v=1701966830&w=1920&h=1080",
+            "publishedAt": "2023-12-07T16:02:12Z",
+            "content": "Shares of Google popped more than 5% Thursday, a day after the company announced its latest artificial intelligence model called Gemini that will compete with products from OpenAI, Microsoft and Meta… [+2851 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Elizabeth Elkind",
+            "title": "House votes to censure Rep. Jamaal Bowman for falsely pulling fire alarm - Fox News",
+            "description": "The House of Representatives voted on Thursday to censure Democratic Rep. Jamaal Bowman of New York for falsely pulling a fire alarm in late September.",
+            "url": "https://www.foxnews.com/politics/house-votes-censure-rep-jamaal-bowman-falsely-pulling-fire-alarm",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/09/jamaal-bowman.jpg",
+            "publishedAt": "2023-12-07T15:56:00Z",
+            "content": "The House of Representatives is formally reprimanding Rep. Jamaal Bowman, D-N.Y., on Thursday morning over his pulling of a fire alarm earlier this year.\r\nThe House voted largely along party lines, 2… [+2357 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Facebook and Messenger to automatically encrypt messages - BBC.com",
+            "description": "The Home Secretary James Cleverly says he's \"incredibly disappointed\" by Meta's decision to automatically encrypt all messages",
+            "url": "https://www.bbc.com/news/technology-67646047",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C07A/production/_131947294_gettyimages-1142183122.jpg",
+            "publishedAt": "2023-12-07T15:49:00Z",
+            "content": "By Chris VallanceTechnology reporter, BBC News\r\nAll Facebook and Messenger chats will be encrypted automatically, parent company Meta has announced.\r\nMessages and calls protected by end-to-end-encryp… [+5472 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Lego Fortnite: Gaming giant launches Minecraft rival - BBC.com",
+            "description": "The new co-operative survival game mode sees players crafting items with Lego bricks.",
+            "url": "https://www.bbc.com/news/technology-67635859",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/938E/production/_131947773_mediaitem131947771.jpg",
+            "publishedAt": "2023-12-07T15:37:00Z",
+            "content": "By Marc Cieslak &amp; Tom GerkenBBC Technology team\r\nThe massively popular video game Fortnite has launched a high-profile collaboration with Lego.\r\nCrafting has always been a key part of the online … [+5700 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Lisa Respers France",
+            "title": "Lupita Nyong’o and Joshua Jackson look pretty friendly - CNN",
+            "description": "Are they or aren’t they?",
+            "url": "https://www.cnn.com/2023/12/07/entertainment/lupita-nyongo-joshua-jackson/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/231207085237-lupita-nyongo-joshua-jackson-split.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-12-07T15:31:00Z",
+            "content": "Are they or arent they?\r\nLupita Nyongo and Joshua Jackson are the latest celebrities to have people playing the dating guessing game.\r\nThe pair were recently photographed by TMZ, holding hands while … [+1174 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Get behind my Rwanda asylum plan, Rishi Sunak tells Tories - BBC.com",
+            "description": "The PM seeks to head off Tory rebels by insisting his policy is the \"toughest immigration law ever\".",
+            "url": "https://www.bbc.com/news/uk-politics-67649447",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9411/production/_131950973_sunak-index3-epa.jpg",
+            "publishedAt": "2023-12-07T15:28:00Z",
+            "content": "By Joshua Nevett Political reporter, BBC News\r\nWatch: My patience with Rwanda plan has worn thin - Sunak\r\nRishi Sunak has urged MPs to back his Rwanda asylum plan, after senior Tories warned him it w… [+5782 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "Israel should face war crimes probe over journalist death in Lebanon: NGOs - Al Jazeera English",
+            "description": "Rights groups say attack that killed Reuters journalist and injured six others ‘likely a direct attack on civilians’.",
+            "url": "https://www.aljazeera.com/news/2023/12/7/israel-likely-waged-deliberate-attack-on-journalists-watchdogs",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/10/2023-10-14T072236Z_2078094421_RC2SR3AT2GQ8_RTRMADP_3_ISRAEL-PALESTINIANS-JOURNALIST-1697492145.jpg?resize=1920%2C1440",
+            "publishedAt": "2023-12-07T15:21:06Z",
+            "content": "International rights groups have said that Israeli strikes that killed a journalist and injured six others in southern Lebanon were likely a direct attack on civilians and must be investigated as a w… [+2629 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Victoria Song",
+            "title": "Amazon's latest Echo Frames are more style than substance - The Verge",
+            "description": "The third-gen Amazon Echo Frames are lighter, with improved audio, longer battery life, and much better style options. However, these small gains aren’t enough to put ahead of the competition.",
+            "url": "https://www.theverge.com/23989893/amazon-echo-frames-review-alexa-carrera-cruiser-smart-glasses",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/OwUy-Uz2NiSixSW55RdiDX6n2Mk=/0x0:2040x1360/1200x628/filters:focal(1111x889:1112x890)/cdn.vox-cdn.com/uploads/chorus_asset/file/25135697/236936_Amazon_Echo_Frames_AKrales_0272.jpg",
+            "publishedAt": "2023-12-07T15:00:00Z",
+            "content": "I felt like a Kardashian reject roaming the streets of New York City, but hey, Alexa could tell me the weather.\r\nByVictoria Song, a senior reporter focusing on wearables, health tech, and more with 1… [+12844 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Aimee Picchi",
+            "title": "McDonald's is opening a new chain called CosMc's. Here are the locations and menu. - CBS News",
+            "description": "CosMc's is \"what would happen if a McDonald's character from the 1980s that was part alien, part surfer, part robot\" opened a restaurant, its CEO said.",
+            "url": "https://www.cbsnews.com/news/mcdonalds-cosmcs-locations-near-me-bolingbrook-illinois-starbucks/",
+            "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2023/12/07/4022a40a-39f9-463a-a6a5-0d92f84ea204/thumbnail/1200x630/423520a537d794927f094549e6607250/cosmcsskyhero-2336x1040-hero-desktop.jpg?v=170b469460f9b5b4a2670b02bb591e2d",
+            "publishedAt": "2023-12-07T14:59:00Z",
+            "content": "A first look at the McDonald's concept CosMc's \r\nA first look at the McDonald's concept CosMc's00:28\r\nMcDonald's said it is opening a new chain called CosMc's that will focus on coffee and other drin… [+2883 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "",
+            "title": "College basketball rankings: Marquette routs Texas as Shaka Smart is showing leaving Longhorns was wise move - CBS Sports",
+            "description": "The Golden Eagles are No. 7 in the Top 25 And 1 after Smart led them to a 86-65 win vs. his former team",
+            "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-marquette-routs-texas-as-shaka-smart-is-showing-leaving-longhorns-was-wise-move/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/12/07/11bde2f6-1484-47eb-8813-9778d7a294c8/thumbnail/1200x675/0276aeebf10b3b3d085c31c24a60c8f0/top25and1marquette.jpg",
+            "publishedAt": "2023-12-07T14:56:00Z",
+            "content": "Marquette's Shaka Smart told his players in advance of Wednesday's showdown with Texas that coaching against the Big 12 program he previously led for six seasons didn't really carry any special weigh… [+2578 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "POLITICO.eu"
+            },
+            "author": "Laura Hülsemann",
+            "title": "Russia warns US that Ukraine will be its 'second Vietnam' - POLITICO Europe",
+            "description": "‘We can’t let Putin win,’ Biden said on Wednesday.",
+            "url": "https://www.politico.eu/article/russia-warns-us-that-ukraine-will-be-its-second-vietnam-war/",
+            "urlToImage": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2023/12/07/GettyImages-1754153986-scaled.jpg",
+            "publishedAt": "2023-12-07T14:53:00Z",
+            "content": "The Kremlin’s spy chief Sergei Naryshkin warned the U.S. that Ukraine will turn into its “second Vietnam,” amid disagreement in Congress over funding for Kyiv. \r\n“Ukraine will turn into a ‘black hole… [+1154 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Angelica Peebles",
+            "title": "U.S. poised to approve first gene-editing treatment in breakthrough for sickle cell patients - CNBC",
+            "description": "The U.S. Food and Drug Administration is expected to approve exa-cel for sickle cell disease in what would become the first marketed medicine to use CRISPR.",
+            "url": "https://www.cnbc.com/2023/12/07/crispr-gene-editing-treatment-us-approval.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/106906134-1625237040209-gettyimages-975892154-urn_newsml_dpa_com_20090101_180523-99-417865-2.jpeg?v=1625237085&w=1920&h=1080",
+            "publishedAt": "2023-12-07T14:10:12Z",
+            "content": "At age 19, Joe Tsogbe underwent his first hip replacement. In his 20s, he averaged about nine hospitalizations a year. By his 30s, that rose to more than a dozen. \r\nAll the result of sickle cell dise… [+6662 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Tanaya Macheel",
+            "title": "Michael Novogratz says Jamie Dimon is wrong on bitcoin as it outperforms JPMorgan's stock - CNBC",
+            "description": "\"He keeps doubling down and he keeps being wrong,\" Novogratz said.",
+            "url": "https://www.cnbc.com/2023/12/07/novogratz-says-jamie-dimon-is-wrong-on-bitcoin-as-it-outperforms-jpmorgan-stock.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/104880719-20171205-7838-2526.jpg?v=1701965396&w=1920&h=1080",
+            "publishedAt": "2023-12-07T14:07:18Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BuzzFeed News"
+            },
+            "author": "Leyla Mohammed",
+            "title": "Taylor Swift Fans Flood Kim Kardashian's Instagram With Snake Emojis - BuzzFeed News",
+            "description": "Fans are urging Kim to apologize after Taylor called her out for publicly branding her a “liar” and “illegally” recording that infamous phone call in 2016.",
+            "url": "https://www.buzzfeednews.com/article/leylamohammed/kim-kardashian-instagram-flooded-snake-emojis-taylor-swift",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2023-12/7/13/enhanced/a74bde85c16b/original-2410-1701954066-2.jpg?crop=1243:651;7,0%26downsize=1250:*",
+            "publishedAt": "2023-12-07T13:31:50Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Space.com"
+            },
+            "author": "Elizabeth Howell",
+            "title": "The ISS just turned 25, and NASA is getting ready for the end (video) - Space.com",
+            "description": "The agency extended its deadline for a deorbit vehicle that will eventually steer the ISS into Earth's atmosphere.",
+            "url": "https://www.space.com/international-space-station-25th-anniversary-nasa-planning-end",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/FrjEaaGDNne7wWaSVGswKk-1200-80.jpg",
+            "publishedAt": "2023-12-07T13:00:20Z",
+            "content": "Space is part of Future US Inc, an international media group and leading digital publisher. Visit our corporate site.\r\n©\r\nFuture US, Inc. Full 7th Floor, 130 West 42nd Street,\r\nNew York,\r\nNY 10036."
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "S. Dev",
+            "title": "UNLV shooting suspect dead after 3 killed on campus, Las Vegas police say - CBS News",
+            "description": "Las Vegas police said three people were killed and one person was wounded after a shooting on the University of Nevada, Las Vegas, campus.",
+            "url": "https://www.cbsnews.com/news/las-vegas-police-active-shooter-unlv/",
+            "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2023/12/06/a625e271-61a8-456f-a73d-ac0b82d7f097/thumbnail/1200x630/bd03aa3cb71ed90c73b72d005e8b5336/2023-12-06t213757z-923034969-rc2xr4a4lv8w-rtrmadp-3-las-vegas-shooting.jpg?v=170b469460f9b5b4a2670b02bb591e2d",
+            "publishedAt": "2023-12-07T12:36:00Z",
+            "content": "Three people were killed and one person was wounded in a shooting on the University of Nevada, Las Vegas, campus Wednesday afternoon, police said. The suspect was killed by officers who rushed to the… [+4346 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+        }
+    ]
+}
