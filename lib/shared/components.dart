@@ -40,7 +40,7 @@ Widget buildArticleItem(article) => Padding(
                   style: TextStyle(fontSize: 20, color: Colors.grey[500]),
                 ),
                 Text(
-                  '${article['publishedAt']}',
+                  '${(article['publishedAt'])}',
                   style: TextStyle(fontSize: 20, color: Colors.grey[500]),
                 ),
               ],
