@@ -25,86 +25,89 @@ class NewsApp extends StatelessWidget {
           var cubit = NewsCubit.get(context)..isDarkMode;
 
           return MaterialApp(
-              debugShowCheckedModeBanner: false,
-              themeMode: cubit.isDarkMode ? ThemeMode.light : ThemeMode.dark,
-              darkTheme: ThemeData(
-                brightness: Brightness.dark,
-                bottomNavigationBarTheme: BottomNavigationBarThemeData(
-                  type: BottomNavigationBarType.fixed,
-                  selectedItemColor: Colors.white,
-                  unselectedItemColor: Colors.grey,
-                  backgroundColor: HexColor('333333'),
-                ),
-                appBarTheme: const AppBarTheme(
-                  backgroundColor: Colors.grey,
-                  elevation: 0,
-                  titleTextStyle: TextStyle(
-                      fontSize: 24,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold),
-                ),
-                textTheme: TextTheme(
-                  bodyText1: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                ),
+            debugShowCheckedModeBanner: false,
+            themeMode: NewsCubit.get(context).isDark
+                ? ThemeMode.light
+                : ThemeMode.dark,
+            darkTheme: ThemeData(
+              brightness: Brightness.dark,
+              bottomNavigationBarTheme: BottomNavigationBarThemeData(
+                type: BottomNavigationBarType.fixed,
+                selectedItemColor: Colors.white,
+                unselectedItemColor: Colors.grey,
+                backgroundColor: HexColor('333333'),
               ),
-              theme: ThemeData(
-                brightness: Brightness.light,
-                appBarTheme: const AppBarTheme(
-                  backgroundColor: Colors.amber,
-                  systemOverlayStyle: SystemUiOverlayStyle(
-                    statusBarColor: Colors.black,
-                    statusBarIconBrightness: Brightness.dark,
-                  ),
-                  elevation: 0,
-                  titleTextStyle: TextStyle(
-                      fontSize: 24,
-                      color: Colors.black,
-                      fontWeight: FontWeight.bold),
-                ),
-                bottomNavigationBarTheme: BottomNavigationBarThemeData(
-                  type: BottomNavigationBarType.fixed,
-                  selectedItemColor: Colors.white,
-                  unselectedItemColor: Colors.grey,
-                  backgroundColor: HexColor('333333'),
-                ),
-                textTheme: TextTheme(
-                  bodyText1: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black),
-                ),
+              appBarTheme: const AppBarTheme(
+                backgroundColor: Colors.grey,
+                elevation: 0,
+                titleTextStyle: TextStyle(
+                    fontSize: 24,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold),
               ),
-              home: Stack(
-                children: [
-                  const NewsLayout(),
-                  Positioned(
-                    right: 10,
-                    child: Container(
-                      height: 100,
-                      child: Material(
-                        color: Colors.transparent,
-                        child: IconButton(
-                            onPressed: () {
-                              cubit.switchMode();
-                              if (cubit.isDarkMode) {
-                                cubit.isDarkMode = false;
-                              } else {
-                                cubit.isDarkMode = true;
-                              }
-                            },
-                            icon: const Icon(
-                              Icons.mode_night_outlined,
-                            )),
-                      ),
-                    ),
-                  ),
-                ],
-              )
-              // ),
-              );
+              textTheme: TextTheme(
+                bodyText1: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              ),
+            ),
+            theme: ThemeData(
+              brightness: Brightness.light,
+              appBarTheme: const AppBarTheme(
+                backgroundColor: Colors.amber,
+                systemOverlayStyle: SystemUiOverlayStyle(
+                  statusBarColor: Colors.black,
+                  statusBarIconBrightness: Brightness.dark,
+                ),
+                elevation: 0,
+                titleTextStyle: TextStyle(
+                    fontSize: 24,
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold),
+              ),
+              bottomNavigationBarTheme: BottomNavigationBarThemeData(
+                type: BottomNavigationBarType.fixed,
+                selectedItemColor: Colors.white,
+                unselectedItemColor: Colors.grey,
+                backgroundColor: HexColor('333333'),
+              ),
+              textTheme: TextTheme(
+                bodyText1: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black),
+              ),
+            ),
+            home:
+                //  Stack(
+                //   children: [
+                const NewsLayout(),
+            //   Positioned(
+            //     right: 10,
+            //     child: Container(
+            //       height: 100,
+            //       child: Material(
+            //         color: Colors.transparent,
+            //         child: IconButton(
+            //             onPressed: () {
+            //               cubit.switchMode();
+            //               if (cubit.isDarkMode) {
+            //                 cubit.isDarkMode = false;
+            //               } else {
+            //                 cubit.isDarkMode = true;
+            //               }
+            //             },
+            //             icon: const Icon(
+            //               Icons.mode_night_outlined,
+            //             )),
+            //       ),
+            //     ),
+            //   ),
+            // ],
+            // )
+            // ),
+          );
         },
       ),
     );
