@@ -23,11 +23,15 @@ class _NewsLayoutState extends State<NewsLayout> {
 
           return Scaffold(
             appBar: AppBar(
+              actions: [
+                IconButton(
+                    onPressed: () {}, icon: Icon(Icons.brightness_4_outlined))
+              ],
               title: Row(
                 children: [
                   const Text("News"),
                   SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.8,
+                    width: MediaQuery.of(context).size.width * 0.7,
                     child: Padding(
                       padding: const EdgeInsets.only(left: 16, right: 50),
                       child: SizedBox(
@@ -78,8 +82,6 @@ class _NewsLayoutState extends State<NewsLayout> {
             bottomNavigationBar: BottomNavigationBar(
               showSelectedLabels: true,
               showUnselectedLabels: true,
-              selectedItemColor: Colors.amber,
-              unselectedItemColor: Colors.black,
               items: cubit.bottomItem,
               currentIndex: cubit.currentIndex,
               onTap: (value) {

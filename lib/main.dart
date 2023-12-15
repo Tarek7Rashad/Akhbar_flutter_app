@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:hexcolor/hexcolor.dart';
 import 'package:news_app2/layout/NewsLayout.dart';
 import 'package:news_app2/shared/cubit/news_cubit.dart';
 import 'package:news_app2/shared/network/remote/dioHelper.dart';
@@ -28,10 +29,12 @@ class NewsApp extends StatelessWidget {
               themeMode: cubit.isDarkMode ? ThemeMode.light : ThemeMode.dark,
               darkTheme: ThemeData(
                 brightness: Brightness.dark,
-                bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-                    selectedItemColor: Colors.red,
-                    backgroundColor: Colors.grey,
-                    selectedIconTheme: IconThemeData(color: Colors.amber)),
+                bottomNavigationBarTheme: BottomNavigationBarThemeData(
+                  type: BottomNavigationBarType.fixed,
+                  selectedItemColor: Colors.white,
+                  unselectedItemColor: Colors.grey,
+                  backgroundColor: HexColor('333333'),
+                ),
                 appBarTheme: const AppBarTheme(
                   backgroundColor: Colors.grey,
                   elevation: 0,
@@ -39,6 +42,12 @@ class NewsApp extends StatelessWidget {
                       fontSize: 24,
                       color: Colors.white,
                       fontWeight: FontWeight.bold),
+                ),
+                textTheme: TextTheme(
+                  bodyText1: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white),
                 ),
               ),
               theme: ThemeData(
@@ -55,12 +64,20 @@ class NewsApp extends StatelessWidget {
                       color: Colors.black,
                       fontWeight: FontWeight.bold),
                 ),
+                bottomNavigationBarTheme: BottomNavigationBarThemeData(
+                  type: BottomNavigationBarType.fixed,
+                  selectedItemColor: Colors.white,
+                  unselectedItemColor: Colors.grey,
+                  backgroundColor: HexColor('333333'),
+                ),
+                textTheme: TextTheme(
+                  bodyText1: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black),
+                ),
               ),
-              home:
-                  //  const Directionality(
-                  //   textDirection: TextDirection.rtl,
-                  //   child:
-                  Stack(
+              home: Stack(
                 children: [
                   const NewsLayout(),
                   Positioned(
