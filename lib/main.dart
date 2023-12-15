@@ -28,7 +28,6 @@ class NewsApp extends StatelessWidget {
               themeMode: cubit.isDarkMode ? ThemeMode.light : ThemeMode.dark,
               darkTheme: ThemeData(
                 brightness: Brightness.dark,
-                textTheme: TextTheme(bodyText1: TextStyle(color: Colors.amber)),
                 bottomNavigationBarTheme: const BottomNavigationBarThemeData(
                     selectedItemColor: Colors.red,
                     backgroundColor: Colors.grey,
