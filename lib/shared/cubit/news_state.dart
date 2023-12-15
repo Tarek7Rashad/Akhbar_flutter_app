@@ -42,3 +42,5 @@ final class NewsGetScienceErrorState extends NewsState {
 final class LightMoodState extends NewsState {}
 
 final class DarkMoodState extends NewsState {}
+
+final class AppMoodState extends NewsState {}

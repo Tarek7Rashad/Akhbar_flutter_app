@@ -22,7 +22,7 @@ class NewsApp extends StatelessWidget {
       child: BlocConsumer<NewsCubit, NewsState>(
         listener: (context, state) {},
         builder: (context, state) {
-          var cubit = NewsCubit.get(context)..isDarkMode;
+          // var cubit = NewsCubit.get(context)..isDarkMode;
 
           return MaterialApp(
             debugShowCheckedModeBanner: false,
@@ -45,7 +45,7 @@ class NewsApp extends StatelessWidget {
                     color: Colors.white,
                     fontWeight: FontWeight.bold),
               ),
-              textTheme: TextTheme(
+              textTheme: const TextTheme(
                 bodyText1: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -72,41 +72,14 @@ class NewsApp extends StatelessWidget {
                 unselectedItemColor: Colors.grey,
                 backgroundColor: HexColor('333333'),
               ),
-              textTheme: TextTheme(
+              textTheme: const TextTheme(
                 bodyText1: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                     color: Colors.black),
               ),
             ),
-            home:
-                //  Stack(
-                //   children: [
-                const NewsLayout(),
-            //   Positioned(
-            //     right: 10,
-            //     child: Container(
-            //       height: 100,
-            //       child: Material(
-            //         color: Colors.transparent,
-            //         child: IconButton(
-            //             onPressed: () {
-            //               cubit.switchMode();
-            //               if (cubit.isDarkMode) {
-            //                 cubit.isDarkMode = false;
-            //               } else {
-            //                 cubit.isDarkMode = true;
-            //               }
-            //             },
-            //             icon: const Icon(
-            //               Icons.mode_night_outlined,
-            //             )),
-            //       ),
-            //     ),
-            //   ),
-            // ],
-            // )
-            // ),
+            home: const NewsLayout(),
           );
         },
       ),

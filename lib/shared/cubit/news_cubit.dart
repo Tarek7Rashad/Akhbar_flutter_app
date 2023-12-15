@@ -50,6 +50,12 @@ class NewsCubit extends Cubit<NewsState> {
     }
   }
 
+  bool isDark = false;
+  void changeMode() {
+    isDark = !isDark;
+    emit(AppMoodState());
+  }
+
   void changeScreen(int index) {
     ThemeData.dark();
     currentIndex = index;
