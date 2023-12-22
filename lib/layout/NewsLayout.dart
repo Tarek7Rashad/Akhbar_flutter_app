@@ -24,7 +24,7 @@ class _NewsLayoutState extends State<NewsLayout> {
             actions: [
               IconButton(
                   onPressed: () {
-                    cubit.changeMode();
+                    // cubit.changeMode();
                     // cubit.getBusiness();
                     // cubit.getScience();
                     // cubit.getSports();

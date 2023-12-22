@@ -4,16 +4,22 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:news_app2/layout/NewsLayout.dart';
 import 'package:news_app2/shared/cubit/news_cubit.dart';
+import 'package:news_app2/shared/network/local/cachedHelper.dart';
 import 'package:news_app2/shared/network/remote/dioHelper.dart';
 
-void main() {
+void main() async {
   DioHelper.init();
+  await CacheHelper.init();
+  bool isDark = CacheHelper.getData(key: 'isDark');
 
-  runApp(const NewsApp());
+  runApp(NewsApp(
+    isDark: isDark,
+  ));
 }
 
 class NewsApp extends StatelessWidget {
-  const NewsApp({super.key});
+  const NewsApp({super.key, required this.isDark});
+  final bool isDark;
 
   @override
   Widget build(BuildContext context) {
@@ -46,7 +52,7 @@ class NewsApp extends StatelessWidget {
                     fontWeight: FontWeight.bold),
               ),
               textTheme: const TextTheme(
-                bodyText1: TextStyle(
+                bodyLarge: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
@@ -73,7 +79,7 @@ class NewsApp extends StatelessWidget {
                 backgroundColor: HexColor('333333'),
               ),
               textTheme: const TextTheme(
-                bodyText1: TextStyle(
+                bodyLarge: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                     color: Colors.black),

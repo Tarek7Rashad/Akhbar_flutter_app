@@ -4,6 +4,7 @@ import 'package:news_app2/Screens/BusinessScreen.dart';
 import 'package:news_app2/Screens/ScienseScreen.dart';
 import 'package:news_app2/Screens/SettingsScreen.dart';
 import 'package:news_app2/Screens/SportScreen.dart';
+import 'package:news_app2/shared/network/local/cachedHelper.dart';
 import 'package:news_app2/shared/network/remote/dioHelper.dart';
 
 part 'news_state.dart';
@@ -53,7 +54,9 @@ class NewsCubit extends Cubit<NewsState> {
   bool isDark = false;
   void changeMode() {
     isDark = !isDark;
-    emit(AppMoodState());
+    CacheHelper.setData(key: 'isDark', value: isDark).then((value) {
+      emit(AppMoodState());
+    });
   }
 
   void changeScreen(int index) {
